@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://insighta-labs-backend-production.up.railway.app";
+const API_URL = "https://insighta-labs-backend.onrender.com";
 
 const Login = () => {
   const handleLogin = async () => {

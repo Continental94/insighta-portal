@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "https://insighta-labs-backend-production.up.railway.app";
+const API_URL = "https://insighta-labs-backend.onrender.com";
 
 export const useAuth = () => {
   const [user, setUser] = useState(null);

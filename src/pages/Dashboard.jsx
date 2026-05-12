@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { useAuth } from "../hooks/useAuth";
 
-const API_URL = "https://insighta-labs-backend-production.up.railway.app";
+const API_URL = "https://insighta-labs-backend.onrender.com";
 
 const Dashboard = () => {
   const { user, logout } = useAuth();
